@@ -122,12 +122,67 @@ console.log(quadrado)
 
 // 3- Boolean (Verdadeiro ou Falso)
 // Exercício 1 - Crie uma variável ativo com true.
+
+let maiorDeIdade = true;
+let menorDeIdadee = false;
+
+console.log(maiorDeIdade); //exibe true 
+console.log (menorDeIdadee); // exibe false '""
+// ________________________________________________________
 // Exercício 2 - Verifique se um número é maior que 10.
+let Number = 11;
+let liberado = Number >=10;
+console.log(liberado);
+// ______________________________________________________
+
 // Exercício 3 - Verifique se a idade é maior ou igual a 18.
+let idade = 20;
+let podeDirigir = idade >=18;
+console.log(podeDirigir);
+// _______________________________________________________
+
 // Exercício 4 - Compare dois números iguais.
+let num1 = 10
+let num2 = 10
+let resultado = num1 === num2
+console.log (resultado)
+// _______________________________________________________
+
 // Exercício 5 - Compare dois números diferentes.
+let num3 = 20
+let num4 = 10
+let resultado1 = num1 !== num2
+console.log (resultado1)
+// _______________________________________________________
+
 // Exercício 6 - Verifique se um número é par.
+let par = 92
+let resultado2 = par % 2 === 0
+console.log(resultado2)
+// ________________________________________________________
+
 // Exercício 7 - Use AND (&&) em uma condição.
+let idade3 = 20;
+let temCarteira = true;
+
+console.log(idade3 >= 18 && temCarteira);
+// ________________________________________________________
+    
 // Exercício 8 - Use OR (||) em uma condição.
+let temDinheiro = false;
+let temCartao = true;
+
+console.log(temDinheiro || temCartao);
+// __________________________________________________________
+
 // Exercício 9 - Negue um valor boolean.
-// Exercício 10 - Compare texto e número.
+let estaChovendo = true;
+console.log(!estaChovendo);
+
+// ___________________________________________________________
+
+// Exercício 10 - Compare texto e número;
+let num5 = 20
+let texto = "olaaa"
+let resultado5 = texto === num5
+console.log (resultado5)
