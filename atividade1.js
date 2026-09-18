@@ -10,21 +10,21 @@ console.log(nome + " " + sobrenome)
 // ________________________________________________________
 
 // Exercício 3 - Crie uma frase usando Template String.
-let frase = 'Olá, meu nome é ' + nome + ' ' + sobrenome + '.';
-console.log(frase)
+let versiculo = "Proverbios 3;5 diz: "
+let frase = "Confie no Senhor de todo o seu coração"
+console.log(versiculo + frase)
 
 // ___________________________________________________________
 
 // Exercício 4 - Guarde o nome de uma escola e exiba.
-let nomeEscola = "SESI"
+let nomeEscola = "SENAI"
 console.log(nomeEscola)
 
 // _______________________________________________________
 // Exercício 5 - Crie duas strings e junte em uma frase.
-let str1 = "Estudando"
-let str2 = "JavaScript"
-let str3 = str1 + " " + str2
-console.log(str3)
+let frase1 = "Júlia"
+let frase2 = " é estudiosa"
+console.log(frase1 + frase2)
 
 // _______________________________________________________
 
@@ -34,54 +34,53 @@ console.log(boasVindas)
 
 // ________________________________________________________
 // Exercício 7 - Mostre o tamanho de uma string.
-let str = "Olá, eu sou o João"
-console.log(str.length)
+let tamanho = "Olá, eu sou a Júlia"
+console.log(tamanho.length)
 
 // ________________________________________________________
 
-
 // Exercício 8 - Transforme um texto em letras maiúsculas.
-let txt = "letras maiúsculas"
-console.log(txt.toUpperCase())
+let maior = "São Paulo"
+console.log(maior.toUpperCase())
 
 // _______________________________________________________
 
 // Exercício 9 - Transforme um texto em letras minúsculas.
-let txt2 = "LETRAS MINÚSCULAS"
-console.log(txt2.toLowerCase())
-console.log()
+let menor = "São Paulo"
+console.log(menor.toLowerCase())
+
 // _______________________________________________________
 
 // Exercício 10 - Crie uma frase com nome e cidade.
-let nome2 = "João"
-let cidade = "São Paulo"
-console.log(nome + " mora em " + cidade)
-console.log()
+let outroNome = "Júlia"
+let cidade = "Guarulhos"
+console.log(outroNome + " mora em " + cidade)
+
 // _________________________________________________________
 
 // 2- Number (Números)
 // Exercício 1 - Crie dois números e exiba a soma.
-let adicao = 10 + 20
+let adicao = 10 + 40
 console.log(adicao)
-console.log()
+
 // ____________________________________________________________
 
 // Exercício 2 - Calcule a subtração.
-let subtracao = 20 - 10
+let subtracao = 20 - 5
 console.log(subtracao)
-console.log()
+
 // ____________________________________________________________
 
 // Exercício 3 - Calcule a multiplicação.
 let multipliacacao = 10 * 2
 console.log(multipliacacao)
-console.log()
+
 // ______________________________________________________________
 
 // Exercício 4 - Calcule a divisão.
 let divisao = 10 / 2
 console.log(divisao)
-console.log()
+
 // _____________________________________________________________
 // Exercício 5 - Calcule a média de dois números.
 let media = 10 + 20
@@ -91,7 +90,6 @@ console.log(media / 2)
 
 // Exercício 6 - Calcule o dobro de um número.
 let dobroNumero = 100 * 2
-console.log()
 
 // _____________________________________________________________
 
@@ -100,26 +98,36 @@ let dividendo = 15
 let divisor = 4
 let resto = dividendo % divisor;
 console.log(resto)
-console.log()
-// _____________________________________________________________
 
+// _____________________________________________________________
 
 // Exercício 8 - Crie um preço e um desconto.
 let precoOriginal = 100.00
 let descontoPercentual = 15
 let precoFinal = precoOriginal * (1 - descontoPercentual / 100);
 console.log(precoFinal)
-console.log()
+
 // _____________________________________________________________
 // Exercício 9 - Converta idade em meses.
 let idadeAnos = 25 * 12
 console.log(idadeAnos)
-console.log()
+
 // ____________________________________________________________
 
 // Exercício 10 - Calcule o quadrado de um número.3
 let quadrado = 6 ** 2
 console.log(quadrado)
-console.log()
+
 // _____________________________________________________________
 
+// 3- Boolean (Verdadeiro ou Falso)
+// Exercício 1 - Crie uma variável ativo com true.
+// Exercício 2 - Verifique se um número é maior que 10.
+// Exercício 3 - Verifique se a idade é maior ou igual a 18.
+// Exercício 4 - Compare dois números iguais.
+// Exercício 5 - Compare dois números diferentes.
+// Exercício 6 - Verifique se um número é par.
+// Exercício 7 - Use AND (&&) em uma condição.
+// Exercício 8 - Use OR (||) em uma condição.
+// Exercício 9 - Negue um valor boolean.
+// Exercício 10 - Compare texto e número.
